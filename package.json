@@ -1,6 +1,6 @@
 {
   "name": "@makotot/github-package-playground",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "playground",
   "main": "index.js",
   "scripts": {
