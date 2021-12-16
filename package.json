@@ -11,6 +11,7 @@
   "author": "makotot",
   "license": "ISC",
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
