@@ -1,14 +1,14 @@
 {
   "name": "@makotot/github-package-playground",
   "version": "1.0.8",
-  "description": "",
+  "description": "playground",
   "main": "index.js",
   "scripts": {
     "test": "tsc",
     "build": "tsc",
-    "release": "release-it --verbose"
+    "release": "release-it"
   },
-  "author": "",
+  "author": "makotot",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
