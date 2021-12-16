@@ -43,4 +43,8 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
+      - name: Setup Release User
+        run: |
+          git config --global user.email "makotot@gmail.com"
+          git config --global user.name "Release User"
       - run: npm run release
