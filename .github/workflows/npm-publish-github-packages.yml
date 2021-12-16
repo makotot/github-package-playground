@@ -38,13 +38,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v2
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - name: Setup Release User
+      - name: git config
         run: |
-          git config --global user.email "makotot@gmail.com"
-          git config --global user.name "Release User"
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - run: npm run release
