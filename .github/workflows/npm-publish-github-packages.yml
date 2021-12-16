@@ -5,8 +5,10 @@ name: Node.js Package
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
+    # tags:
+    #   - 'v*'
 
 jobs:
   build:
@@ -22,12 +24,14 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm test
-      - name: Release
-        uses: softprops/action-gh-release@v1
+      #- name: Release
+      #  uses: softprops/action-gh-release@v1
 
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
+    env:
+      NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
     permissions:
       contents: read
       packages: write
@@ -39,6 +43,4 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: npm run release
