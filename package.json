@@ -1,0 +1,17 @@
+{
+  "name": "@makotot/github-package-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "typescript": "4.5.4"
+  }
+}
