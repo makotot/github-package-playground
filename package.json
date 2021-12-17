@@ -1,6 +1,6 @@
 {
   "name": "@makotot/github-package-playground",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "playground",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "author": "makotot",
   "license": "ISC",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
