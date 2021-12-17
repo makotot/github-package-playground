@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/makotot/github-package-playground/compare/v1.2.1...v1.2.2) (2021-12-17)
+
+
+### Bug Fixes
+
+* test ([9107174](https://github.com/makotot/github-package-playground/commit/9107174f98df5a7381645b5756eb85c5561523e9))
+
 ## [1.2.1](https://github.com/makotot/github-package-playground/compare/v1.2.0...v1.2.1) (2021-12-17)
 
 
