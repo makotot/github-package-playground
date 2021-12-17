@@ -36,6 +36,7 @@ jobs:
           registry-url: https://npm.pkg.github.com
           scope: makotot
       - run: npm ci
+      - run: npm run build
       - run: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
