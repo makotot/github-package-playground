@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/makotot/github-package-playground/compare/v1.1.0...v1.2.0) (2021-12-17)
+
+
+### Features
+
+* test ([a14c604](https://github.com/makotot/github-package-playground/commit/a14c604479baa2433fde18c193674562d945d543))
+
 # [1.1.0](https://github.com/makotot/github-package-playground/compare/v1.0.14...v1.1.0) (2021-12-17)
 
 
