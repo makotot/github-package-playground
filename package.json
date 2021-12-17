@@ -4,7 +4,7 @@
   "description": "playground",
   "author": "makotot",
   "license": "ISC",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "tsc --noEmit",
     "build": "tsc",
