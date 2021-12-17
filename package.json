@@ -11,7 +11,11 @@
   "author": "makotot",
   "license": "ISC",
   "publishConfig": {
-    "@makotot:registry": "https://npm.pkg.github.com/"
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makotot/github-package-playground.git"
   },
   "devDependencies": {
     "release-it": "14.11.8",
