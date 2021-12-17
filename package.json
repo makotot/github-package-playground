@@ -1,6 +1,6 @@
 {
   "name": "@makotot/github-package-playground",
-  "version": "0.0.0-development",
+  "version": "1.1.0",
   "description": "playground",
   "author": "makotot",
   "license": "ISC",
@@ -11,7 +11,9 @@
     "release": "semantic-release"
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
